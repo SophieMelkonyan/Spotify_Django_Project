@@ -78,6 +78,7 @@
     margin-bottom: 100px;
   }
   .search-box{
+    margin-left:18%;
     width: fit-content;
     height: fit-content;
     position: relative;
