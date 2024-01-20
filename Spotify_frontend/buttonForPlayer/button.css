@@ -1,6 +1,6 @@
 
 .bottom {
-    height: 12%;
+    height: 8%;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -13,7 +13,7 @@
   }
   
   #ProgressBar {
-    width: 80%;
+    width: 50%;
   }
   
   .bottom .icon img {
@@ -42,9 +42,9 @@
 }
 
 .songinfo-img img {
-    object-fit: cover;
-    height:70px;
-    width: 80px;
+  object-fit: cover;
+  height: 45px;
+  width: 50px;
 }
 .icon{
     cursor:pointer;
