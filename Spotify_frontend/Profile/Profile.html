@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="Profile.css">
+<!-- <link rel="stylesheet" href="Profile.css">
 
 <main class="container">
     <div class="card">
@@ -26,4 +26,14 @@
         <button class="card__action__button card__action--message">Go back</button>
       </div>
     </div>
-  </main>
+  </main> -->
+  const stripe = Stripe('pk_test_51Ob0PtKkfxRy5FMrhNnFD6IODldXCfpO4ZWUPtkKgMjTA8SXDcTu7MxwhjXWl2jQIIyeXiVcNPk1q2SG9HBlovZ0004Kqsdbvt');
+
+const appearance = {
+  theme: 'flat',
+  variables: { colorPrimaryText: '#262626' }
+};
+const options = { /* options */ };
+const elements = stripe.elements({ clientSecret, appearance });
+const paymentElement = elements.create('payment', options);
+paymentElement.mount('#payment-element');
